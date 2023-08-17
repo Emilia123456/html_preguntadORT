@@ -6,13 +6,39 @@ nav{
     padding: 30px;
 }
 
+footer{
+    margin-top: 140px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 20px;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+footer li a, footer li p{
+    font-size: 18px;
+    color:#201454 
+    
+}
 
 
-li a, a {
+li img{
+    height: auto;
+    width: 40px;
+}
+
+li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #201454 ;
+}
+
+.boton a{
     font-size: 22px;
     text-decoration: none;
     color: #0f0830 ;
 }
+
 
 li{
     display: contents;
@@ -23,7 +49,11 @@ li{
     background-image: url('Imagenes/imagen_principal_index.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
+
+
 
 .centrador{
     display: flex;
@@ -35,7 +65,9 @@ li{
 }
 
 
+
 .boton a{
+   
     padding: 30px;
     background-color: #7e97c1;
     border-radius: 30px;
@@ -44,7 +76,7 @@ li{
 
 .titulo h1{
     font-size: 65px;
-    padding: 60px;
+    padding: 65px;
     color: #1a0e4f;
     font-family: 'Bree Serif', serif;
     font-family: 'Nunito', sans-serif;
@@ -53,5 +85,10 @@ li{
 }
 
 .contenido-index{
-    margin: 100px;
+    margin: 50px;
+}
+
+.contenido-index img{
+    height: auto;
+    width: 100px;
 }
