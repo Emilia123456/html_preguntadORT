@@ -48,13 +48,16 @@ li a{
    
 }
 
-
+li a:hover{
+    color: #67679E ;
+}
 
 .boton a{
     font-size: 22px;
     text-decoration: none;
     color: #0f0830 ;
 }
+
 
 
 li{
@@ -84,11 +87,15 @@ li{
 
 
 .boton a{
-   
     padding: 30px;
     background-color: #7e97c1;
     border-radius: 30px;
-    
+}
+
+.boton a:hover{
+    background-color: #67679E;
+    border-radius: 31px;
+    color: #e7e5f1 ;
 }
 
 .titulo h1{
@@ -98,7 +105,7 @@ li{
     font-family: 'Bree Serif', serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'REM', sans-serif;
-
+   
 }
 
 .titulo-index h1{
