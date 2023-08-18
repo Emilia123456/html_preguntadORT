@@ -3,10 +3,14 @@
 nav{
     background-color: #D9E4FB;
     display: flex;
-    padding: 30px;
+    padding: 10px;
+    padding-top: 30px;
+    
 }
 
-footer{
+
+
+.footer-index{
     margin-top: 140px;
     background-color: #ffffff;
     display: flex;
@@ -14,6 +18,16 @@ footer{
     background-size: cover;
     margin-left: 100px;
 }
+
+footer{
+    margin-top: 140px;
+    background-color: #D9E4FB;
+    display: flex;
+    padding: 20px;
+    background-size: cover;
+    padding-left: 100px;
+}
+
 
 footer li a, footer li p{
     font-size: 18px;
@@ -31,7 +45,10 @@ li a{
     font-size: 22px;
     text-decoration: none;
     color: #201454 ;
+   
 }
+
+
 
 .boton a{
     font-size: 22px;
@@ -75,13 +92,22 @@ li{
 }
 
 .titulo h1{
-    font-size: 65px;
+    font-size: 42px;
     padding: 65px;
     color: #1a0e4f;
     font-family: 'Bree Serif', serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'REM', sans-serif;
 
+}
+
+.titulo-index h1{
+    font-size: 65px;
+    padding: 65px;
+    color: #1a0e4f;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'REM', sans-serif;
 }
 
 .contenido-index{
@@ -91,4 +117,18 @@ li{
 .contenido-index img{
     height: auto;
     width: 100px;
+}
+
+.creditos{
+    height: 100%;
+    width: 100%;
+  }
+  
+.creditos-tamaño{
+    padding: 1px;
+  }
+
+.creditos-tamaño img{
+    height: 180px;
+    width: auto;
 }
