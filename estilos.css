@@ -87,14 +87,6 @@ li{
     
 }
 
-.body-juego{
-    background-image: url('Imagenes/imagen-fondo-juego.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    
-}
-
 
 .centrador{
     display: flex;
@@ -121,7 +113,7 @@ li{
     color: #e7e5f1 ;
 }
 
-.boton button{
+.boton button, .boton-juego a{
     font-size: 22px;
     text-decoration: none;
     color: #0f0830 ;
@@ -129,12 +121,12 @@ li{
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: #7e97c1;
+    background-color: #8ea7d1;
     border-radius: 30px;
     border: none;
 }
 
-.boton button:hover{
+.boton button:hover, .boton-juego a:hover{
     background-color: #67679E;
     border-radius: 31px;
     color: #e7e5f1 ;
@@ -175,7 +167,7 @@ li{
     margin-top: 80px;
     margin-left: 80px;
     padding-bottom: 100px;
-    background-color: #e6e6f3;
+    background-color: #edf4ff;
     width: 1000px;
     
 }
@@ -187,6 +179,7 @@ li{
   
 .creditos-tamaño{
     padding: 1px;
+    margin: 155px;
   }
 
 .creditos-tamaño img{
@@ -209,9 +202,7 @@ li{
     padding: 15px;
 }
 
-.contenido-checkbox input{
-    
-}
+
 
 .contenido-config h1{
     font-size: 42px;
@@ -224,3 +215,80 @@ li{
 .form-control{
     width: 21%;
 }
+
+.pie-de-pagina{
+    display: flex;
+    justify-content: center;
+}
+
+.pie-de-pagina h2{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: #67679E;
+}
+
+.pregunta-contenedor h1{
+    font-size: 38px;
+    padding-top: 40px;
+    color: #1a0e4f;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'REM', sans-serif;
+    text-align:center; 
+   
+}
+
+.pregunta-contenedor h2{
+    font-size: 42px;
+    padding-bottom: 40px;
+    color: #1a0e4f;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'REM', sans-serif;
+    text-align:center; 
+   
+}
+
+
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input{
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    font-size: 22px;
+    color: #201454;
+    background-color: #dfe5f5;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+form input:hover{
+    background-color: #67679E;
+    border-radius: 31px;
+    color: #e7e5f1 ;
+    border: none;
+}
+
+.boton-juego{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.juego-contenedor{
+    margin-top: 30px;
+    background-color: #edf4ff;
+    padding: 80px;
+    border-radius: 45px;
+}
+
+
+
