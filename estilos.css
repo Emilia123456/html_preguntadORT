@@ -8,6 +8,13 @@ nav{
     
 }
 
+nav p{
+    font-size: 22px;
+    color: #201454 ;
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 350px;
+}
 
 
 .footer-index{
@@ -20,7 +27,7 @@ nav{
 }
 
 footer{
-    margin-top: 140px;
+    margin-top: 95px;
     background-color: #D9E4FB;
     display: flex;
     padding: 20px;
@@ -70,9 +77,23 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+.body-config{
+    background-image: url('Imagenes/imagen_menu_configuracion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     
 }
 
+.body-juego{
+    background-image: url('Imagenes/imagen-fondo-juego.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
 
 
 .centrador{
@@ -84,7 +105,9 @@ li{
     
 }
 
-
+.boton{
+    margin-top: 80px;
+}
 
 .boton a{
     padding: 30px;
@@ -93,6 +116,25 @@ li{
 }
 
 .boton a:hover{
+    background-color: #67679E;
+    border-radius: 31px;
+    color: #e7e5f1 ;
+}
+
+.boton button{
+    font-size: 22px;
+    text-decoration: none;
+    color: #0f0830 ;
+    margin-top: 40px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #7e97c1;
+    border-radius: 30px;
+    border: none;
+}
+
+.boton button:hover{
     background-color: #67679E;
     border-radius: 31px;
     color: #e7e5f1 ;
@@ -126,6 +168,12 @@ li{
     width: 100px;
 }
 
+.contenido-config{
+    padding-top: 80px;
+    padding-left: 100px;
+    
+}
+
 .creditos{
     height: 100%;
     width: 100%;
@@ -138,4 +186,34 @@ li{
 .creditos-tamaño img{
     height: 180px;
     width: auto;
+}
+
+
+.contenido-formulario, .contenido-checkbox{
+   
+    display: flex;
+    justify-content:baseline;
+}
+
+.contenido-checkbox p{
+   font-size: 22px;
+    color: #201454 ;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.contenido-checkbox input{
+    
+}
+
+.contenido-config h1{
+    font-size: 42px;
+    color: #1a0e4f;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+.form-control{
+    width: 21%;
 }
