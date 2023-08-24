@@ -83,8 +83,12 @@ li{
     background-image: url('Imagenes/imagen_menu_configuracion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+}
+
+.body-fin{
+    background-image: url('Imagenes/imagen_fondo_fin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -259,19 +263,20 @@ form{
     flex-direction: column;
 }
 
-form input{
+form input, .boton-siguiente a{
     display: flex;
     justify-content: center;
     margin: 7px;
     font-size: 22px;
     color: #201454;
-    background-color: #dfe5f5;
+    background-color: #c3cde7;
     border: none;
     border-radius: 30px;
     padding: 10px;
+    text-decoration: none;
 }
 
-form input:hover{
+form input:hover, .boton-siguiente a:hover{
     background-color: #67679E;
     border-radius: 31px;
     color: #e7e5f1 ;
@@ -290,5 +295,9 @@ form input:hover{
     border-radius: 45px;
 }
 
+.centrador img{
+    height: auto;
+    width: 100px;
+}
 
 
